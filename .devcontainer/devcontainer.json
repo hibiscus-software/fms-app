@@ -1,0 +1,26 @@
+{
+  "name": "TypeScript Codespaces",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers-community/npm-features/typescript:1": {
+      "version": "latest"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dsznajder.es7-react-js-snippets",
+        "dbaeumer.vscode-eslint",
+        "jdinhlife.gruvbox",
+        "jonathanharty.gruvbox-material-icon-theme"
+      ],
+      "settings": {
+        "workbench.colorTheme": "Gruvbox Dark Medium",
+        "workbench.iconTheme": "gruvbox-material-icon-theme",
+        "git.enableSmartCommit": true,
+        "git.confirmSync": false,
+        "git.autofetch": true
+      }
+    }
+  }
+}
