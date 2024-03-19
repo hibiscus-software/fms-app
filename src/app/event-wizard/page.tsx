@@ -5,12 +5,15 @@
  */
 
 export const metadata = {
-  title: 'Home | Field Management System',
+  title: 'Event Wizard | Field Mangement System',
 }
 
 export default function Page() {
   return (
     <main>
+      <aside>
+
+      </aside>
     </main>
   );
 }
