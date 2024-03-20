@@ -11,7 +11,7 @@ export default function Header() {
     <header className="p-2 bg-base-300 text-base-content">
       <div role="tablist" className="tabs tabs-md">
         <Link href="/event-wizard" role="tab" className="tab"><i className="fa-solid fa-wand-magic-sparkles"></i>&nbsp;Event Wizard</Link>
-        <Link href="/" role="tab" className="tab"><i className="fa-solid fa-play"></i>&nbsp;Match Play</Link>
+        <Link href="/match-play" role="tab" className="tab"><i className="fa-solid fa-play"></i>&nbsp;Match Play</Link>
         <Link href="/" role="tab" className="tab"><i className="fa-solid fa-magnifying-glass"></i>&nbsp;Match Test</Link>
         <Link href="/" role="tab" className="tab"><i className="fa-solid fa-pencil"></i>&nbsp;Match Review</Link>
         <Link href="/" role="tab" className="tab"><i className="fa-regular fa-rectangle-list"></i>&nbsp;Field Test</Link>

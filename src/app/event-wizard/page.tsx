@@ -4,16 +4,19 @@
  * root directory of this project.
  */
 
+import WizardSidebar from "../../components/wizard-sidebar";
+
 export const metadata = {
   title: 'Event Wizard | Field Mangement System',
 }
 
 export default function Page() {
   return (
-    <main>
-      <aside>
+    <main className="flex">
+      <WizardSidebar></WizardSidebar>
+      <aside className="p-4 w-full">
 
       </aside>
     </main>
   );
-}
+} 
