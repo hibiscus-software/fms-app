@@ -27,6 +27,14 @@ function FieldStatus() {
           <p>E-Stop</p>
           <p>Robot</p>
         </div>
+        <div className="font-semibold p-2 space-x-2 flex flex-row">
+          <p>1</p>
+          <p>3602</p>
+          <p>Stop</p>
+          <p>Card</p>
+          <input type="checkbox" className="checkbox" />
+          <input type="checkbox" className="checkbox" />
+        </div>
       </div>
       <div className="bg-white text-black rounded-xl px-4 py-1 flex flex-col items-center">
         <p className="text-md font-semibold">Qualification 8</p>
