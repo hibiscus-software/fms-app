@@ -2,8 +2,8 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 #[tauri::command]
-fn get_event_time() -> String{
-  return "5m".into();
+fn is_blue_ready() -> bool {
+  return true;
 }
 
 fn main() {
